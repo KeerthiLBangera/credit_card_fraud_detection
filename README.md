@@ -221,5 +221,6 @@ The confusion matrix for the Random Forest Classifier.
 ---
 ![Precision Recall Curve](images/e.png)
 ![ROC curve](images/f.png)
+![Model Performance Summary](images/g.png)
 
 
