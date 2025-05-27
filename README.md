@@ -5,24 +5,6 @@
 
 -----
 
-## Table of Contents
-
-1.  [Project Overview](https://www.google.com/search?q=%23project-overview)
-2.  [Problem Statement](https://www.google.com/search?q=%23problem-statement)
-3.  [Dataset](https://www.google.com/search?q=%23dataset)
-4.  [Methodology](https://www.google.com/search?q=%23methodology)
-      * [1. Data Loading & Exploratory Data Analysis (EDA)](https://www.google.com/search?q=%231-data-loading--exploratory-data-analysis-eda)
-      * [2. Data Preprocessing](https://www.google.com/search?q=%232-data-preprocessing)
-      * [3. Handling Imbalanced Data](https://www.google.com/search?q=%233-handling-imbalanced-data)
-      * [4. Machine Learning Models](https://www.google.com/search?q=%234-machine-learning-models)
-      * [5. Model Evaluation](https://www.google.com/search?q=%235-model-evaluation)
-5.  [Key Findings & Results](https://www.google.com/search?q=%23key-findings--results)
-6.  [How to Run Locally](https://www.google.com/search?q=%23how-to-run-locally)
-7.  [Future Enhancements](https://www.google.com/search?q=%23future-enhancements)
-8.  [Contact](https://www.google.com/search?q=%23contact)
-
------
-
 ## Project Overview
 
 This project implements a machine learning-based system to detect fraudulent credit card transactions. Given the highly imbalanced nature of real-world fraud datasets, a key focus of this project is on effectively handling class imbalance to build robust and reliable models, prioritizing the detection of actual fraudulent activities.
@@ -71,8 +53,6 @@ The project follows a standard machine learning pipeline:
   * **Crucial Step:** The severe class imbalance is visually confirmed and quantified using `value_counts()` and `countplot`.
   * Distributions of `Time` and `Amount` features are visualized.
 
-*(Add a screenshot of your Class Distribution plot here)*
-`![Class Distribution](images/class_distribution.png)`
 
 ### 2\. Data Preprocessing
 
@@ -201,5 +181,46 @@ To run this project on your local machine, follow these steps:
   * **Monitoring:** Consider strategies for monitoring model performance drift in production.
 
 -----
+## Outputs and Visualizations
+
+This section showcases the key visualizations and outputs generated during the project's execution.
+
+### Exploratory Data Analysis (EDA) Plots
+
+#### 1. Transaction Time Distribution
+
+This histogram shows the distribution of transaction times.
+
+![Transaction Time Distribution](images/a.png)
+*(Replace this line with the actual markdown for your Time Distribution plot screenshot)*
+
+
+### Model Evaluation Visualizations
+
+#### 1. Logistic Regression Confusion Matrix
+
+This matrix shows the performance of the Logistic Regression model on the test set, detailing True Positives, False Positives, True Negatives, and False Negatives.
+
+![Logistic Regression Confusion Matrix](images/b.png)
+*(Replace this line with the actual markdown for your Logistic Regression Confusion Matrix plot screenshot)*
+
+#### 2. Decision Tree Confusion Matrix
+
+The confusion matrix for the Decision Tree Classifier.
+
+![Decision Tree Confusion Matrix](images/c.png)
+*(Replace this line with the actual markdown for your Decision Tree Confusion Matrix plot screenshot)*
+
+#### 3. Random Forest Confusion Matrix
+
+The confusion matrix for the Random Forest Classifier.
+
+![Random Forest Confusion Matrix](images/d.png)
+*(Replace this line with the actual markdown for your Random Forest Confusion Matrix plot screenshot)*
+
+---
+![Precision Recall Curve](images/e.png)
+![ROC curve](images/f.png)
+![Model Performance Summary](images/g.png)
 
 
