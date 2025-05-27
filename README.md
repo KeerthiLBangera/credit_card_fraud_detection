@@ -5,24 +5,6 @@
 
 -----
 
-## Table of Contents
-
-1.  [Project Overview](https://www.google.com/search?q=%23project-overview)
-2.  [Problem Statement](https://www.google.com/search?q=%23problem-statement)
-3.  [Dataset](https://www.google.com/search?q=%23dataset)
-4.  [Methodology](https://www.google.com/search?q=%23methodology)
-      * [1. Data Loading & Exploratory Data Analysis (EDA)](https://www.google.com/search?q=%231-data-loading--exploratory-data-analysis-eda)
-      * [2. Data Preprocessing](https://www.google.com/search?q=%232-data-preprocessing)
-      * [3. Handling Imbalanced Data](https://www.google.com/search?q=%233-handling-imbalanced-data)
-      * [4. Machine Learning Models](https://www.google.com/search?q=%234-machine-learning-models)
-      * [5. Model Evaluation](https://www.google.com/search?q=%235-model-evaluation)
-5.  [Key Findings & Results](https://www.google.com/search?q=%23key-findings--results)
-6.  [How to Run Locally](https://www.google.com/search?q=%23how-to-run-locally)
-7.  [Future Enhancements](https://www.google.com/search?q=%23future-enhancements)
-8.  [Contact](https://www.google.com/search?q=%23contact)
-
------
-
 ## Project Overview
 
 This project implements a machine learning-based system to detect fraudulent credit card transactions. Given the highly imbalanced nature of real-world fraud datasets, a key focus of this project is on effectively handling class imbalance to build robust and reliable models, prioritizing the detection of actual fraudulent activities.
