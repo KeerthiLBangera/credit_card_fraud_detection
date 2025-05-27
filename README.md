@@ -53,8 +53,6 @@ The project follows a standard machine learning pipeline:
   * **Crucial Step:** The severe class imbalance is visually confirmed and quantified using `value_counts()` and `countplot`.
   * Distributions of `Time` and `Amount` features are visualized.
 
-*(Add a screenshot of your Class Distribution plot here)*
-`![Class Distribution](images/class_distribution.png)`
 
 ### 2\. Data Preprocessing
 
@@ -183,5 +181,45 @@ To run this project on your local machine, follow these steps:
   * **Monitoring:** Consider strategies for monitoring model performance drift in production.
 
 -----
+## Outputs and Visualizations
+
+This section showcases the key visualizations and outputs generated during the project's execution.
+
+### Exploratory Data Analysis (EDA) Plots
+
+#### 1. Transaction Time Distribution
+
+This histogram shows the distribution of transaction times.
+
+![Transaction Time Distribution](images/a.png)
+*(Replace this line with the actual markdown for your Time Distribution plot screenshot)*
+
+
+### Model Evaluation Visualizations
+
+#### 1. Logistic Regression Confusion Matrix
+
+This matrix shows the performance of the Logistic Regression model on the test set, detailing True Positives, False Positives, True Negatives, and False Negatives.
+
+![Logistic Regression Confusion Matrix](images/b.png)
+*(Replace this line with the actual markdown for your Logistic Regression Confusion Matrix plot screenshot)*
+
+#### 2. Decision Tree Confusion Matrix
+
+The confusion matrix for the Decision Tree Classifier.
+
+![Decision Tree Confusion Matrix](images/c.png)
+*(Replace this line with the actual markdown for your Decision Tree Confusion Matrix plot screenshot)*
+
+#### 3. Random Forest Confusion Matrix
+
+The confusion matrix for the Random Forest Classifier.
+
+![Random Forest Confusion Matrix](images/d.png)
+*(Replace this line with the actual markdown for your Random Forest Confusion Matrix plot screenshot)*
+
+---
+![Precision Recall Curve](images/e.png)
+![ROC curve](images/f.png)
 
 
