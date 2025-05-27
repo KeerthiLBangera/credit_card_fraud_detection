@@ -1,0 +1,17 @@
+# Python specific ignores
+__pycache__/
+*.pyc
+
+# Jupyter Notebook specific ignores
+.ipynb_checkpoints/  # Jupyter's autosave checkpoints
+
+# Virtual environment
+venv/
+.env
+
+# Operating System files
+.DS_Store  # macOS specific
+Thumbs.db  # Windows specific
+
+creditcard.csv
+
